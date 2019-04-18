@@ -1,4 +1,4 @@
-FROM openjdk:8-stretch
+FROM openjdk:8-slim-stretch
 
 RUN apt-get -y update
 RUN apt-get -y install curl maven software-properties-common debconf-utils openssh-client 
